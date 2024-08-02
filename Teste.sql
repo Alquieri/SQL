@@ -18,6 +18,7 @@ CREATE TABLE Sala
 	Capacidade INT NOT NULL
 );
 go
+/*
 INSERT INTO Sala(IDSala,Nome,Capacidade) VALUES ('23M1H3K03JEQ','Dobie',28);
 INSERT INTO Sala(IDSala,Nome,Capacidade) VALUES ('GT2YHNXHXHGP','Island',21);
 INSERT INTO Sala(IDSala,Nome,Capacidade) VALUES ('C84KBX56JPS2','Cottony',24);
@@ -7574,3 +7575,4 @@ select e.descricao, s.capacidade from evento e
 	on e.idsala = s.idsala
 
 	order by s.nome 
+*/
